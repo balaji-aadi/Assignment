@@ -1,0 +1,87 @@
+.dashboard_container{
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard_plus{
+    position: relative;
+    left: 1.8rem;
+    color: white;
+
+}
+
+.dashboard_headings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 14px;
+    margin: 2rem 2rem;
+}
+
+.dashboard_headings p {
+    color: rgb(10, 196, 196);
+}
+
+.dashboard_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 15rem;
+    height: 10rem;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 14px;
+    margin: 2rem 2rem;
+    transition: 0.2s;
+}
+
+.dashboard_card:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.03);
+}
+
+.btn_due { 
+    background-color: bisque;
+    color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn_notdue{
+    background-color: lightblue;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.dashboard_cardItems{
+    margin-left: 30px;
+    line-height: 1.5rem;
+}
+
+.leadlist_icon{
+    position: relative;
+    top: 8px;
+    color: gray;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cards_container{
+    display: flex;
+}
+
+.card2{
+    width: 16rem;
+}

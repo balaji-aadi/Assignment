@@ -1,0 +1,73 @@
+.leadlist_grid{
+    margin: 2rem 2rem;
+    border: 1px solid gray;
+    padding-top: 2rem;
+}
+
+.leadlist_grid h3{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+} 
+
+.leadlist_heading input{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    padding-left: 1.5rem;
+}
+
+.leadlist_heading{
+    margin: 2rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leadlist_heading p {
+    font-size: 14px;
+}
+
+.userListEdit{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: gray;
+    margin-top: 8px;
+}
+
+.userListDelete{
+    cursor: pointer;
+    color: gray;
+}
+
+.search{
+    position: absolute;
+    top: 7.6rem;
+    color: gray;
+    font-size: 26px;
+}
+
+.plus{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 8rem;
+    top: 5rem;
+}
+
+.leadlist_btn{
+    width: 8rem;
+    height: 2.3rem;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.leadlist_headingRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

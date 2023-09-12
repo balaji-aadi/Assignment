@@ -1,0 +1,141 @@
+.top_heading{
+    margin-top: 2rem;
+    line-height: 2rem;
+    margin-left: 7rem;
+}
+
+.top_heading p {
+    font-size: 14px;
+}
+
+.addlead_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.addlead_form{
+    height: 100%;
+}
+
+.addlead1_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+.addlead1_heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 7rem; */
+    height: 100%;
+}
+
+.addlead1_heading p{
+    font-size: 14px;
+}
+
+.addlead1_input{
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.addlead1_input label{
+    font-size: 14px;
+}
+
+.addlead1_input input{
+    height: 3rem;
+    width: 48rem;
+    /* border-radius: 5px; */
+    outline: none;
+    /* padding: 2rem; */
+    padding-left: 1rem;
+    
+}
+
+.addlead1_input select{
+    height: 3rem;
+    width: 48rem;
+    /* border-radius: 5px; */
+    outline: none;
+    /* padding: 2rem; */
+    padding-left: 1rem;
+    
+}
+
+.addlead2_input{
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.addlead2_input label{
+    font-size: 14px;
+}
+
+
+.addlead2_input input{
+    height: 3rem;
+    width: 48rem;
+    /* border-radius: 5px; */
+    outline: none;
+    /* padding: 2rem; */
+    padding-left: 1rem;
+    
+}
+
+.addlead2_input select{
+    height: 3rem;
+    /* border-radius: 5px; */
+    outline: none;
+    /* padding: 2rem; */
+    padding-left: 1rem;
+    
+}
+
+.country_select{
+    display: flex;
+}
+
+.country_select select{
+    width: 5rem;
+}
+
+.country_select input{
+    width: 43rem;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+.addlead_btn1{
+    width: 4rem;
+    height: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+.addlead_btn2{
+    width: 4rem;
+    height: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: rgb(95, 95, 236);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
